@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Regulerac">
+
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="280dp"
+       android:src="@drawable/man"/>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="12dp"
+       android:layout_marginTop="118dp"
+      android:src="@drawable/group_34608"/>
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+
+        android:layout_marginTop="280dp"
+        android:src="@drawable/frame_34573" />
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="400dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/service_details"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="480dp"-->
+    <!--        android:layout_marginLeft="15dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numbers of unit"
+        android:textSize="18dp"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="#1A1B2D"
+        android:layout_marginTop="505dp"
+        android:layout_marginLeft="45dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_33998"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="290dp"
+        android:background="@color/white"
+        android:id="@+id/imgbtn1"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:src="@drawable/group_17839"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/imgbtn2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/textid"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#1A1B2D"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="260dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total :"
+        android:textSize="15dp"
+        android:fontFamily="@font/inter_medium"
+        android:textColor="#6F767E"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ₹399"
+        android:textSize="15dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="95dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Book Now"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginTop="750dp"
+        android:background="@drawable/button"/>
+
+
+
+
+
+
+</RelativeLayout>

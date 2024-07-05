@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Acrepair">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC Repair"
+        android:textSize="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/white"
+        android:src="@drawable/frame_34464"
+        android:id="@+id/acbtn1"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="116dp"
+        android:src="@drawable/checkup"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="285dp"
+        android:background="@color/white"
+        android:src="@drawable/frame_34460"
+        android:id="@+id/acbtn2"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="116dp"
+        android:src="@drawable/reguler"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/white"
+        android:src="@drawable/frame_34461"
+        android:id="@+id/acbtn4"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="116dp"
+        android:src="@drawable/instaltion"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/white"
+        android:src="@drawable/frame_34462"
+        android:id="@+id/acbtn5"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="116dp"
+        android:src="@drawable/unstalation"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

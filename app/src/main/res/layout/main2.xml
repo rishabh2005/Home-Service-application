@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/star_8"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Hi, Welcome!"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Please confirm your country code +91 and enter your phone number."
+        android:textColor="#4D4D4D"
+        android:textSize="15dp"
+        android:layout_marginTop="0dp"/>
+
+   <EditText
+       android:layout_width="330dp"
+       android:layout_height="55dp"
+       android:hint="000-XXXX-XXX"
+       android:background="@drawable/button2"
+       android:fontFamily="@font/inter_medium"
+       android:inputType="phone"
+       android:maxLength="13"
+       android:layout_gravity="center"
+       android:textColor="@color/black"
+android:textColorHint="@color/black"
+       android:paddingLeft="20dp"
+       android:layout_marginTop="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Continue"
+        android:id="@+id/btn"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingTop="5dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainotpActivity">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/star_8"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="User Information "
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:fontFamily="@font/inter_medium"-->
+<!--        android:text="We’ve sent an SMS with an activation code to your phone +91 2 94 27 84 11"-->
+<!--        android:textColor="#4D4D4D"-->
+<!--        android:textSize="15dp"-->
+<!--        android:layout_marginTop="0dp"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="74dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="30dp">-->
+
+<!--        <EditText-->
+<!--            android:layout_width="63dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:id="@+id/edit1"-->
+<!--            android:background="@drawable/otp"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textAlignment="center"-->
+<!--            android:fontFamily="@font/poppins_bold"-->
+<!--            android:textSize="28sp"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:maxLength="1"-->
+<!--            android:cursorVisible="false"-->
+<!--            android:inputType="number"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="63dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:id="@+id/edit2"-->
+<!--            android:textAlignment="center"-->
+<!--            android:background="@drawable/otp"-->
+<!--            android:cursorVisible="false"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:fontFamily="@font/poppins_bold"-->
+<!--            android:textSize="28sp"-->
+<!--            android:maxLength="1"-->
+<!--            android:inputType="number"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="63dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:id="@+id/edit7"-->
+<!--            android:background="@drawable/otp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:fontFamily="@font/poppins_bold"-->
+<!--            android:textSize="28sp"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:maxLength="1"-->
+<!--            android:cursorVisible="false"-->
+<!--            android:inputType="number"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="63dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:background="@drawable/otp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:maxLength="1"-->
+<!--            android:fontFamily="@font/poppins_bold"-->
+<!--            android:textSize="28sp"-->
+<!--            android:cursorVisible="false"-->
+<!--            android:inputType="number"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="I didn’t receive a code Resend"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/inter_medium"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="50dp"/>-->
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/inter_medium"
+        android:background="@drawable/button2"
+        android:hint="Enter Your Name"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inter_medium"
+        android:background="@drawable/button2"
+        android:hint="Enter Your Address"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"/>
+<!--    <EditText-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:fontFamily="@font/inter_medium"-->
+<!--        android:background="@drawable/button2"-->
+<!--        android:hint="Enter your name"-->
+<!--        android:paddingLeft="15dp"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        android:layout_gravity="center"/>-->
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="continue"
+        android:id="@+id/btn1"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingTop="5dp"/>
+
+
+</LinearLayout>
+
+
+
